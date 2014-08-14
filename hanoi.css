@@ -1,0 +1,73 @@
+html, head, body, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 100 auto;
+  text-align: center;
+  display: block;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin: 100 auto;
+  text-align: center;
+  display: none;
+}
+
+h2.won {
+  display: block;
+}
+
+h3 {
+  font-family: sans-serif;
+  margin: 100 auto;
+  text-align: center;
+  color: red;
+  display: block;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  border: 5px solid black;
+  width: 300px;
+  margin: auto;
+}
+
+li {
+  font-family: sans-serif;
+  display: block;
+  float: left;
+  width: 90px;
+  height: 40px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 40px;
+}
+
+li.disc {
+  background-color: yellow;
+}
+
+li.disc1:after {
+  content: "1";
+}
+
+li.disc2:after {
+  content: "2";
+}
+
+li.disc3:after {
+  content: "3";
+}
